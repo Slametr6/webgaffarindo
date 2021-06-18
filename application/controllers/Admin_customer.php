@@ -38,7 +38,7 @@ class Admin_customer extends CI_Controller {
     {
         $config['upload_path']      = './assets/images/clients/';
         $config['allowed_types']    = 'jpg|png|jpeg';
-        $config['overwrite']        = TRUE; 
+        $config['overwrite']        = TRUE;
         $new_name = slug($this->input->post('ClientName',TRUE));
         $config['file_name']        = $new_name;
         $this->load->library('upload', $config, 'Img');

@@ -158,5 +158,4 @@ class Admin_project extends CI_Controller
 			redirect('admin_project');
 		}
 	}
-
 }

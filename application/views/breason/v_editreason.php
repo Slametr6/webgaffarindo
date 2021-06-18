@@ -21,7 +21,7 @@
 									<div class="col-lg-6">
 									<div class="form-group">
 										<label>Icon</label>
-										<select class="form-control" name="Icon" id="Icon" type="test" required="">>
+										<select class="form-control" name="Icon" id="Icon" type="text" required="">
 											<option value="<?= $data->Icon;?>"><?= $data->Icon;?></option>
 											<option value="icon-hours">icon-hours</option>
 											<option value="icon-airplane">icon-airplane</option>
@@ -44,7 +44,7 @@
 											<option value="icon-open-box">icon-open-box</option>
 											<option value="icon-transfer">icon-transfer</option>
 										</select>
-										<!-- <input class="form-control" value="<?= $data->Icon;?>" name="Icon" type="text"> -->
+										<!--<input class="form-control" value="<?= $data->Icon;?>" name="Icon" type="text">-->
 									</div>
 									</div>
 									<div class="col-lg-12">

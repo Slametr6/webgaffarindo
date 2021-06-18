@@ -36,6 +36,11 @@ class Admin_about extends CI_Controller {
             $this->load->library('upload', $config, 'Img');
             $this->Img->initialize($config);
 
+            $AboutName		=   $this->input->post('AboutName');
+            $Text1		=   $this->input->post('Text1');
+            $Text2		=   $this->input->post('Text2');
+            $Text3		=   $this->input->post('Text3');
+
             if ($this->Img->do_upload('Img')) {
                 $config['image_library'] = 'gd2';
                 $config['source_image'] = './assets/images/about/' . $this->Img->data('file_name');
@@ -59,6 +64,12 @@ class Admin_about extends CI_Controller {
                 $this->session->set_flashdata('success', 'Data added successfully!');
                 redirect('admin_about');
             } else {
+                $data = array(
+                    'AboutName'		=> $AboutName,
+					'Text1'			=> $Text1,
+					'Text2'			=> $Text2,
+					'Text3'			=> $Text3,
+                );
                 $this->M_model->update('aboutpages', ['IdPage' => $Id], $data);
                 $this->session->set_flashdata('success', 'Data updated successfully!');
                 redirect('admin_about');

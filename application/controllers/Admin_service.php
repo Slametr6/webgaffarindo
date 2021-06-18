@@ -162,7 +162,7 @@ class Admin_service extends CI_Controller
 			redirect('admin_service');
 		}
 	}
-
+	
 	public function mainservice()
 	{
 		$data['judul'] = 'Edit Service Page';
@@ -196,5 +196,4 @@ class Admin_service extends CI_Controller
             redirect('admin_service/mainservice');
         }
 	}
-
 }

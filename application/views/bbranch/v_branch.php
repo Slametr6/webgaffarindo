@@ -19,6 +19,7 @@
                                             <tr>
                                                 <th>Branch</th>
                                                 <th>Phone</th>
+                                                <th>Phone 2</th>
                                                 <th>Mail</th>
                                                 <th>Address</th>
                                                 <th>Location</th>
@@ -31,6 +32,7 @@
                                             <tr>
                                                 <td><?= $val->Branch;?></td>
                                                 <td><?= $val->Phone;?></td>
+                                                <td><?= $val->Phone2;?></td>
                                                 <td><?= $val->Mail;?></td>
                                                 <td><?= $val->Address;?></td>
                                                 <td><?= $val->Location;?></td>

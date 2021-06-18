@@ -112,12 +112,6 @@ class M_model extends CI_Model {
         }
     }
 
-	function get_projectpage ()
-	{
-		return $this->db->get_where('projectpages')->row();
-	}
-
-
 	function get_servicepage ()
 	{
 		return $this->db->get_where('servicepages')->row();
@@ -132,7 +126,7 @@ class M_model extends CI_Model {
 	{
 		return $this->db->get_where('sosmed')->row();
 	}
-
+	
 	function get_bg ()
 	{
 		return $this->db->get_where('bgpages')->row();

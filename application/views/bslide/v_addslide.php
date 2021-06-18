@@ -1,4 +1,4 @@
-			<div id="layoutSidenav_content">
+<div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
                         <h1 class="mt-4"><?= $judul;?></h1>
@@ -22,7 +22,7 @@
                                         <div class="form-group">
                                             <label>Image</label>
                                             <div id="imagereal" style="display:none">
-                                                <img id="blah" class="foto" src="" style="width:200px;height:150px">
+                                                <img id="blah" class="foto" src="" style="width:355px;height:159px">
                                             </div>
                                             <input class="form-control" onchange="imgInp(this);" placeholder="Thumbnail" name="Img" type="file" required="">
                                             <label id="cek" style="color: #cd5730;font-size:12px">* 1200 x 537 px</label>

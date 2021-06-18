@@ -38,7 +38,7 @@ class Admin_gallery extends CI_Controller
     {
         $config['upload_path']      = './assets/images/gallery/';
         $config['allowed_types']    = 'jpg|png|jpeg';
-        $config['overwrite']        = TRUE;
+        // $config['overwrite']        = TRUE;
         $new_name = slug($this->input->post('Img',TRUE));
         $config['file_name']        = $new_name;
         $this->load->library('upload', $config, 'Img');
@@ -51,7 +51,7 @@ class Admin_gallery extends CI_Controller
             $config['image_library'] = 'gd2';
             $config['source_image'] = './assets/images/gallery/' . $this->Img->data('file_name');
             $config['maintain_ratio'] = FALSE;
-            $config['overwrite'] = TRUE;
+            // $config['overwrite'] = TRUE;
             $config['width'] = 850;
             $config['height'] = 510;
             $config['new_image'] = './assets/images/gallery/' . $this->Img->data('file_name');
@@ -75,8 +75,8 @@ class Admin_gallery extends CI_Controller
     {
     	$id = $this->encryption->decrypt(str_replace(array('-', '_', '~'), array('+', '=', '/'), $IdGallery));
         if ($id) {
-            $data['data'] = $this->M_model->get_slide($id);
-            $this->M_model->delete('gallery', ['IdGallery' => $id], $data);
+            $data['data'] = $this->M_model->get_gallery($id);
+            $this->M_model->delete('gallery', ['IdGallery' => $id], $data, $delete);
             $this->session->set_flashdata('success', 'Data deleted successfully!');
             redirect('admin_gallery');
         } else {

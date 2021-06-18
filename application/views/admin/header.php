@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-		<link href="<?= base_url();?>assets/images/favicon/favicon.png" rel="icon">
+		<link href="<?= base_url();?>assets/images/favicon/LOGO Gaffarindo.png" rel="icon">
         <title><?= $judul;?></title>
         <link href="<?= base_url();?>assets/admin/css/styles.css" rel="stylesheet" />
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />

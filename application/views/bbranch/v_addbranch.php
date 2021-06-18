@@ -20,8 +20,14 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>Hours</label>
+                                            <label>Phone</label>
                                             <input class="form-control" placeholder="Input Phone" name="Phone" type="text" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Phone 2</label>
+                                            <input class="form-control" placeholder="Input Phone" name="Phone2" type="text" required="">
                                         </div>
                                     </div>
 									<div class="col-lg-6">

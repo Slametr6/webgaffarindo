@@ -1,11 +1,14 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-$config['base_url'] = 'http://localhost/gaffarindo/';
+$config['base_url'] = 'http://localhost/webgaffarindo/';
+$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
+$config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];
+$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 $config['index_page'] = '';
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol']    = 'REQUEST_URI';
 $config['url_suffix'] = '';
-$config['language']	= 'english';
+$config['language']    = 'english';
 $config['charset'] = 'UTF-8';
 $config['enable_hooks'] = FALSE;
 $config['subclass_prefix'] = 'MY_';
@@ -32,11 +35,11 @@ $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
-$config['cookie_prefix']	= '';
-$config['cookie_domain']	= '';
-$config['cookie_path']		= '/';
-$config['cookie_secure']	= FALSE;
-$config['cookie_httponly'] 	= FALSE;
+$config['cookie_prefix']    = '';
+$config['cookie_domain']    = '';
+$config['cookie_path']        = '/';
+$config['cookie_secure']    = FALSE;
+$config['cookie_httponly']     = FALSE;
 $config['standardize_newlines'] = FALSE;
 $config['global_xss_filtering'] = FALSE;
 $config['csrf_protection'] = FALSE;

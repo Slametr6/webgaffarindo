@@ -26,6 +26,20 @@
                                             <label id="cek" style="color: #cd5730;font-size:12px">* # x # px</label>
                                         </div>
                                     </div>
+                                    <!-- <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Status</label>
+                                            <select class="form-control" name="Status" required="">
+                                                <?php if ($data->Status == 0) { ?>
+                                                    <option value="0">Non Actived</option>
+                                                    <option value="1">Actived</option>
+                                                <?php }else{ ?>
+                                                    <option value="1">Actived</option>
+                                                    <option value="0">Non Actived</option>
+                                                <?php } ?>
+                                            </select>
+                                        </div>
+                                    </div> -->
                                 </div>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>

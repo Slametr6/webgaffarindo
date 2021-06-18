@@ -10,19 +10,18 @@
                                 Form Add Gallery
                             </div>
                             <div class="card-body">
-							<!-- <button id="btn-tambah-form">+ Image</button> -->
 							<form role="form" action="<?= base_url() ?>admin_gallery/action_add/" method="POST" enctype="multipart/form-data">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label>Image</label>
                                             <div id="imagereal" style="display:none">
-                                                <img id="blah" class="foto" src="" style="width:200px;height:150px">
+                                                <img id="blah" class="foto" src="" style="width:313px;height:188px">
                                             </div>
                                             <input class="form-control" onchange="imgInp(this);" placeholder="Thumbnail" name="Img" type="file" required="">
                                             <label id="cek" style="color: #cd5730;font-size:12px">* 850 x 510 px</label>
                                         </div>
-								</div>
+								    </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                                 <button type="reset" class="btn btn-danger">Reset</button>
@@ -51,23 +50,3 @@
             }
         }
     </script>
-
-	<!-- <script type="text/javascript">
-			$(document).ready(function(){
-				$("#btn-tambah-form").click(function(){
-
-		var jumlah = parseInt($("#jumlah-form").val()); 
-
-		var nextform = jumlah + 1; 
-		var tambahkonten = document.getElementById("tambahkonten").innerHTML;
-
-		$("#insert-form").append('<div class="col-lg-6">'+
-			'<div class="form-group">'+
-			'<label>Image</label>'+
-			'<input class="form-control" placeholder="Thumbnail" name="Img" type="file">'+
-			'</div>'+
-			'</div>');
-		$("#jumlah-form").val(nextform); 
-	});
-	});
-	</script> -->

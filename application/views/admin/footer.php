@@ -1,7 +1,7 @@
 				<footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Gaffarindo 2021</div>
+                            <div class="text-muted">Copyright &copy; 2021 <a href="https://www.gaffarindo.com">PT. Gaffarindo Sukses Logistik</a></div>
                         </div>
                     </div>
                 </footer>
@@ -22,7 +22,7 @@
                 url: "<?= base_url(); ?>real/cek_nip",
                 method: "GET",
                 data: {
-                    IdUser: value,
+                    Nip: value,
                 },
                 async: false,
                 dataType: 'json',

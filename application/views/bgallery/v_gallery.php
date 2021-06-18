@@ -24,7 +24,7 @@
                                         <tbody>
 										<?php foreach ($data as $val) { ?>
                                             <tr>
-                                                <td><img src="<?= base_url() ?>assets/images/gallery/<?= $val->Img;?>" width="30%"></td>
+                                                <td><img src="<?= base_url() ?>assets/images/gallery/<?= $val->Img;?>" width="25%"></td>
                                                 <td>
                                                     <a onclick="deleteConfirm('<?= base_url();?>admin_gallery/delete/<?= str_replace(array('+', '=', '/'), array('-', '_', '~'), $this->encryption->encrypt($val->IdGallery));?>')" href="#!" class="btn btn-sm btn-danger btn-circle"><i class="fa fa-trash"></i></a>
                                                 </td>

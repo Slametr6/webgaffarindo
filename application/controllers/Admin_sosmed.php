@@ -31,10 +31,14 @@ class Admin_sosmed extends CI_Controller
         if ($id) {
             $Youtube       =   $this->input->post('Youtube');
             $Instagram  =   $this->input->post('Instagram');
+            $Facebook  =   $this->input->post('Facebook');
+            $Whatsapp  =   $this->input->post('Whatsapp');
 
             $data = array(
                 'Youtube'          => $Youtube,
                 'Instagram'     => $Instagram,
+                'Facebook'     => $Facebook,
+                'Whatsapp'     => $Whatsapp
             );
             $this->M_model->update('sosmed', ['IdSosmed' => $id], $data);
             $this->session->set_flashdata('success', 'Data updated successfully!');

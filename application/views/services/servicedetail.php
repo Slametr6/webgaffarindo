@@ -3,7 +3,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="<?= base_url();?>assets/images/page-titles/3.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?= base_url('assets/images/page-titles/').$bg->BgService;?>" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -38,7 +38,7 @@
               <div class="text__block">
                 <h5 class="text__block-title">Overview</h5>
                 <p class="text__block-desc"><?= $svc->Content;?></p>
-                <div class="video-3 bg-overlay mb-25">
+                <!-- <div class="video-3 bg-overlay mb-25">
                   <div class="bg-img"><img src="<?= base_url();?>assets/images/video/1.jpg" alt="background"></div>
                   <div class="video__btn align-v-h">
                     <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
@@ -48,7 +48,7 @@
                       </div>
                     </a>
                   </div>
-                </div><!-- /.video -->
+                </div> /.video -->
                 <p class="text__block-desc"><?= $svc->Content;?></p>
               </div><!-- /.text-block -->
             </div><!-- /.case-single-item -->

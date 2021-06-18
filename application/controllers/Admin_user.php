@@ -38,7 +38,7 @@ class Admin_user extends CI_Controller
 
     public function action_add()
     {
-        $IdUser       =   $this->input->post('IdUser');
+        $IdUser      	  =   $this->input->post('IdUser');
         $UserName     =   $this->input->post('UserName');
         $NickName     =   $this->input->post('NickName');
         $Password     =   password_hash($this->input->post('Password'), PASSWORD_DEFAULT);

@@ -30,7 +30,7 @@
                                             <tr>
                                                 <td><?= $val->ProjectTitle;?></td>
                                                 <td><?= $val->Content;?></td>
-                                                <td><img src="<?= base_url() ?>assets/images/projects/<?= $val->Img;?>" width="100%"></td>
+                                                <td><img src="<?= base_url() ?>assets/images/projects/<?= $val->Img;?>" width="60%"></td>
                                                 <td><?= $val->Slug;?></td>
                                                 <?php if ($val->Status == 0) { ?>
                                                     <td class="danger">Not Active</td>

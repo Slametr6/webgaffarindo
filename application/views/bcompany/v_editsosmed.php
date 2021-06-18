@@ -19,6 +19,14 @@
                                 	<label>Instagram</label>
                                     <input type="text" name="Instagram" class="form-control" value="<?= $data->Instagram; ?>">
                                 </div>
+                                <div class="form-group">
+                                	<label>Facebook</label>
+                                    <input type="text" name="Facebook" class="form-control" value="<?= $data->Facebook; ?>">
+                                </div>
+                                <div class="form-group">
+                                	<label>Whatsapp</label>
+                                    <input type="text" name="Whatsapp" class="form-control" value="<?= $data->Whatsapp; ?>">
+                                </div>
                                 <button type="submit" class="btn btn-warning">Publish</button>
                             </form>
                             </div>

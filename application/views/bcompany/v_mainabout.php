@@ -22,7 +22,7 @@
                                         <div class="form-group">
                                             <label>Image Thumbnail</label>
                                             <input class="form-control" placeholder="Thumbnail" name="Img" type="file">
-                                             <img id="blah" src="<?= base_url('/assets/images/about/') . $data->Img; ?>" style="width:200px;height:100px">
+                                             <img id="blah" src="<?= base_url('/assets/images/about/') . $data->Img; ?>" width="40%">
                                             <label id="cek" style="color: #cd5730;font-size:12px">* 1001 x 666 px</label>
                                         </div>
                                     </div>

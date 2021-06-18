@@ -7,7 +7,7 @@ class M_auth extends CI_Model {
 	function cek_user($IdUser)
     {
         $this->db->where('IdUser', $IdUser);
-        return $this->db->get('Users')->row();
+        return $this->db->get('users')->row();
     }
 
 }

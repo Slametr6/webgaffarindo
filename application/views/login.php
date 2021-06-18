@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-		<link href="<?= base_url();?>assets/images/favicon/favicon.png" rel="icon">
+		<link href="<?= base_url();?>assets/images/favicon/LOGO Gaffarindo.png" rel="icon">
         <title>Cpanel Admin</title>
         <link href="<?= base_url();?>assets/admin/css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
                             <div class="col-lg-5">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header">
-										<!-- <h3 class="text-center font-weight-light my-4">Login</h3> -->
+										<!--<h3 class="text-center font-weight-light my-4">Login</h3>-->
 										<center>
 											<div><img src="<?= base_url();?>assets/images/favicon/gaffarindo.png" width="70%" class="logo-dark" alt="logo"></div>
 										</center>
@@ -31,11 +31,11 @@
 												<?= $this->session->flashdata('error');?>
 											</div>
                                             <div class="form-group">
-                                                <!-- <label class="small mb-1" for="Nip">NIP</label> -->
+                                                <!--<label class="small mb-1" for="Nip">NIP</label>-->
                                                 <input class="form-control py-4" name="IdUser" type="text" placeholder="Enter NIP" />
                                             </div>
                                             <div class="form-group">
-                                                <!-- <label class="small mb-1" for="Password">Password</label> -->
+                                                <!--<label class="small mb-1" for="Password">Password</label>-->
                                                 <input class="form-control py-4" name="Password" type="password" placeholder="Enter Password" />
                                             </div>
                                             <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">

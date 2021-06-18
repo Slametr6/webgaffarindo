@@ -38,7 +38,7 @@ class Admin_branch extends CI_Controller {
     {
         $Branch      =   $this->input->post('Branch');
         $Phone     =   $this->input->post('Phone');
-        $Phone     =   $this->input->post('Phone');
+        $Phone2     =   $this->input->post('Phone2');
         $Mail    	 =   $this->input->post('Mail');
         $Address    	 =   $this->input->post('Address');
         $Location    	 =   $this->input->post('Location');
@@ -47,6 +47,7 @@ class Admin_branch extends CI_Controller {
         $data = array(
             'Branch'     => $Branch,
             'Phone'    => $Phone,
+            'Phone2'    => $Phone2,
             'Mail'       => $Mail,
             'Address'       => $Address,
             'Location'       => $Location,
@@ -76,6 +77,7 @@ class Admin_branch extends CI_Controller {
         if ($Idbranch) {
             $Branch      =   $this->input->post('Branch');
 			$Phone     =   $this->input->post('Phone');
+			$Phone2     =   $this->input->post('Phone2');
 			$Mail    	 =   $this->input->post('Mail');
 			$Address    	 =   $this->input->post('Address');
 			$Location    	 =   $this->input->post('Location');
@@ -84,6 +86,7 @@ class Admin_branch extends CI_Controller {
 			$data = array(
 				'Branch'     => $Branch,
 				'Phone'    => $Phone,
+				'Phone2'    => $Phone2,
 				'Mail'       => $Mail,
 				'Address'       => $Address,
 				'Location'       => $Location,

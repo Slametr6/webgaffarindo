@@ -7,11 +7,11 @@ class Services extends CI_Controller {
 	public function index()
 	{
 		$data['judul']= 'Our Services';
+		$data['bg'] = $this->M_model->get_bg();
 		$data['sosmed']= $this->M_model->get_sosmed();
 		$data['servicepage']= $this->M_model->get_servicepage();
 		$data['service']= $this->M_model->get_service();
 		$data['data'] = $this->M_model->fn_service();
-        $data['bg'] = $this->M_model->get_bg();
 		$this->load->view('include/header', $data);
 		$this->load->view('include/topbar');
 		$this->load->view('services/services', $data);
@@ -27,6 +27,7 @@ class Services extends CI_Controller {
 		}
 		$data['menu'] = '';
 		$data['judul'] = 'Our Services | '.$data['svc']->ServiceName;
+		$data['bg'] = $this->M_model->get_bg();
 		$data['sosmed']= $this->M_model->get_sosmed();
 		$data['service']= $this->M_model->get_service();
 		$data['data']= $this->M_model->fn_service();

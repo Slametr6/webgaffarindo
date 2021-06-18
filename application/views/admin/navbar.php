@@ -41,7 +41,7 @@
                                     <a class="nav-link" href="<?= base_url();?>admin_reason">Manage Why Chose Us</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_visimisi">Manage Visi Misi</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_slide">Manage Slide</a>
-                                    <a class="nav-link" href="<?= base_url();?>admin_bg">Manage Background</a>
+                                     <a class="nav-link" href="<?= base_url();?>admin_bg">Manage Background</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_sosmed">Manage Sosmed</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_about">Manage Page About</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_service/mainservice">Manage Page Service</a>
@@ -55,7 +55,7 @@
                             <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="<?= base_url();?>admin_service">Services</a>
-                                    <a class="nav-link" href="<?= base_url();?>admin_project">Projects</a>
+                                    <!--<a class="nav-link" href="<?= base_url();?>admin_project">Projects</a>-->
                                     <a class="nav-link" href="<?= base_url();?>admin_gallery">Gallery</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_customer">Customers</a>
                                     <a class="nav-link" href="<?= base_url();?>admin_branch">Branch</a>

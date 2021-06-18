@@ -15,7 +15,7 @@
 									<div class="col-lg-6">
                                         <div class="form-group">
                                             <label>NIP</label>
-                                            <input class="form-control" value="<?= $data->IdUser;?>" name="IdUser" type="text" readonly>
+                                            <input class="form-control" value="<?= $data->IdUser;?>" name="Nip" type="text" readonly>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">

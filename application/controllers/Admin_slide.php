@@ -118,7 +118,7 @@ class Admin_slide extends CI_Controller
                 $config['source_image'] = './assets/images/sliders/' . $this->Img->data('file_name');
                 $config['maintain_ratio'] = FALSE;
                 $config['overwrite'] = TRUE;
-                $config['width'] = 1200;
+                $config['width'] = 1500;
                 $config['height'] = 537;
                 $config['new_image'] = './assets/images/sliders/' . $this->Img->data('file_name');
                 $this->load->library('image_lib', $config);
