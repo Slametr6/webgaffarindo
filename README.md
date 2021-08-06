@@ -13,7 +13,7 @@ Berikut merupakan tampilan website tersebut.
 # Tampilan Dashboard
 ![image](https://user-images.githubusercontent.com/53107522/128453798-9510b5f5-ee88-41ea-9d61-57ba321dc079.png)
 
-Aplikasi ini masih jauh dari kesempurnaan, maka dari itu dipersilahkan undtuk di kembangkan dan dipergunakan sebagaimana mestinya. Terimakasih banyak.
+Aplikasi ini masih jauh dari kesempurnaan, maka dari itu dipersilahkan untuk di kembangkan dan dipergunakan sebagaimana mestinya. Terimakasih banyak.
 
 Saran dan masukan yang membangun diharapkan untuk perbaikan kedepannya : 
 Mail : slametr6@gmail.com, 
